@@ -1,4 +1,4 @@
-import Dashboard from "./views/Dashboard.js";
+import Bromelias from "./views/Bromelias.js";
 import Posts from "./views/Posts.js";
 import PostView from "./views/PostView.js";
 import Settings from "./views/Settings.js";
@@ -21,7 +21,7 @@ const navigateTo = url => {
 
 const router = async () => {
     const routes = [
-        { path: "/", view: Dashboard },
+        { path: "/", view: Bromelias },
         { path: "/posts", view: Posts },
         { path: "/posts/:id", view: PostView },
         { path: "/settings", view: Settings }
