@@ -1,0 +1,11 @@
+{
+  "hosting": {
+	"site": "spa-plantazula",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
