@@ -10,7 +10,7 @@ export default class extends AbstractView {
         return `
             <h1>Orquideas</h1>
             <p>Manage your privacy and configuration.</p>
-            <img src="../images/orquideas_sized.png" alt="Orquideas">
+            <img src="static/js/images/orquideas_sized.png" alt="Orquideas">
         `;
     }
 }
