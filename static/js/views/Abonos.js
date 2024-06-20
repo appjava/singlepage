@@ -10,7 +10,7 @@ export default class extends AbstractView {
         return `
             <h1>Abonos</h1>
             <p>You are viewing the posts!</p>
-            <img src="static/images/abono.png" alt="Abono">
+            <img src="../images/abono.png" alt="Abono">
         `;
     }
 }

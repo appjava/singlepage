@@ -12,15 +12,15 @@ export default class extends AbstractView {
             <div class="plantas">
             <fieldset>
             <legend>Bromelias</legend>
-            <img src="static/images/bromelias_sized.png" alt="Bromelias">
+            <img src="../images/bromelias_sized.png" alt="Bromelias">
             </fieldset>
             <fieldset>
             <legend>Suculentas</legend>
-            <img src="static/images/suculentas_sized.png" alt="Suculentas">
+            <img src="../images/suculentas_sized.png" alt="Suculentas">
             </fieldset>
             <fieldset>
             <legend>Orquideas</legend>
-            <img src="static/images/orquideas_sized.png" alt="Orquideas">
+            <img src="../images/orquideas_sized.png" alt="Orquideas">
             </fieldset>
             </div>
         `;
