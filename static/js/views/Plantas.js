@@ -12,7 +12,7 @@ export default class extends AbstractView {
             <div class="plantas">
             <fieldset>
             <legend>Bromelias</legend>
-            <a href="/plantas" data-link><img src="/static/images/bromelias_sized.png" alt="Bromelias"></a>
+            <img src="/static/images/bromelias_sized.png" alt="Bromelias">
             </fieldset>
             <fieldset>
             <legend>Suculentas</legend>

@@ -78,7 +78,6 @@ fieldset img {
     min-height: 90px;
     max-width: 300px;
     width: 95%;
-
 }
 legend{
     padding: 15px;
@@ -88,6 +87,10 @@ legend{
     grid-template-columns: repeat(3, 300px);
     gap: 30px;
     justify-content: center;
+}
+img {
+    width: 100%;
+    max-width: 300px;
 }
 
 @media (max-width: 1200px) {   
@@ -109,7 +112,7 @@ legend{
         margin: 0 auto;
     }
     body {
-        --nav-width: 10px;
+        --nav-width: 0px;
         margin: 0 0 0 var(--nav-width);
         text-align: center;
     }
