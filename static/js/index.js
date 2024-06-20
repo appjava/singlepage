@@ -1,7 +1,11 @@
+import Home from "./views/Home.js";
+import Plantas from "./views/Plantas.js";
 import Bromelias from "./views/Bromelias.js";
-import Posts from "./views/Posts.js";
-import PostView from "./views/PostView.js";
-import Settings from "./views/Settings.js";
+import Suculentas from "./views/Suculentas.js";
+import Orquideas from "./views/Orquideas.js";
+import Materas from "./views/Materas.js";
+import Abonos from "./views/Abonos.js";
+import Carrito from "./views/Carrito.js";
 
 const pathToRegex = path => new RegExp("^" + path.replace(/\//g, "\\/").replace(/:\w+/g, "(.+)") + "$");
 
@@ -21,10 +25,14 @@ const navigateTo = url => {
 
 const router = async () => {
     const routes = [
-        { path: "/", view: Bromelias },
-        { path: "/posts", view: Posts },
-        { path: "/posts/:id", view: PostView },
-        { path: "/settings", view: Settings }
+        { path: "/", view: Home },
+        { path: "/plantas", view: Plantas },
+        { path: "/bromelias", view: Bromelias },
+        { path: "/suculentas", view: Suculentas },
+        { path: "/orquideas", view: Orquideas },
+        { path: "/materas", view: Materas },
+        { path: "/abonos", view: Abonos },
+        { path: "/carrito", view: Carrito },
     ];
 
     // Test each route for potential match

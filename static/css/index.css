@@ -12,6 +12,11 @@ body {
     width: var(--nav-width);
     height: 100vh;
     background: #222222;
+    padding-left: 15px;
+}
+
+.navBottom {
+    display: none;
 }
 
 .nav__link {
@@ -36,6 +41,91 @@ a {
     color: #009579;
 }
 
+/*----------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    color: white;
+    margin-top: 15px;
+    margin-left: 6px;
+}
 h3{
     color: white;
+    padding-top: 15px;
+}
+h4{
+    color: white;
+    padding-bottom: 30px;
+    margin-left: 6px;
+}
+h6{
+    color: white;
+    padding-bottom: 30px;
+    margin-left: 9px;
+}
+fieldset{
+    margin: 0 auto;
+    width: 100%;
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+}
+fieldset img {
+    min-width: 90px;
+    min-height: 90px;
+    max-width: 300px;
+    width: 95%;
+
+}
+legend{
+    padding: 15px;
+}
+.plantas{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 30px;
+    justify-content: center;
+}
+
+@media (max-width: 1200px) {   
+    .plantas{
+        grid-template-columns: repeat(2, 300px);
+    }
+}
+@media (max-width: 900px) {   
+    .plantas{
+        grid-template-columns: repeat(1, 300px);
+    }
+}
+@media (max-width: 600px) {   
+    nav{
+        display: none;
+        position: relative;
+    }
+    #app {
+        margin: 0 auto;
+    }
+    body {
+        --nav-width: 10px;
+        margin: 0 0 0 var(--nav-width);
+        text-align: center;
+    }
+    .navBottom {
+        display: grid;
+        grid-template-columns: repeat(5, 60px);
+        align-items: center;
+        justify-content:space-around;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 60px;
+        background: #222222;
+        text-align: center;
+        font-size: 9px;
+        font-weight: bolder;
+    }
 }
